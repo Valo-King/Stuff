@@ -59,7 +59,7 @@ while True:
 #when the for loop terminates this should print the lose message.
     if "".join(dashes) != secretWord:
         print("Someone set up us the bomb. All your base.")
-        print("♪┏ ( ･o･) ┛♪┗ (･o･ ) ┓♪┏(･o･ )┛♪ in ur spaceship, bombin ur dudes")
+        print("in ur spaceship, bombin ur dudes")
         print("The secret word was: " + secretWord)
     while True:
         print("Play Again" , "Add Words" , "See Word List" , "Quit" , sep="\n")
