@@ -51,16 +51,17 @@ while True:
             updateDashes(guess)
         else:
             print("That letter is not in the secret word.")
-        print("".join(dashes))
+        print("You're getting signal: " + "".join(dashes))
         print("Your number of guesses remaining is: " + str(i))
         if "".join(dashes) in secretWord:
             print(secretWord + " was the secret word! Congration, you done it! :)")
             break
-#when the for loop terminates this should print the lose message.
+#when the for loop terminates without the player guessing the right word this should print the lose message.
     if "".join(dashes) != secretWord:
         print("Someone set up us the bomb. All your base.")
         print("in ur spaceship, bombin ur dudes")
         print("The secret word was: " + secretWord)
+#This is a menu that lets the player decide if they would like to terminate the program or continue playing.
     while True:
         print("Play Again" , "Add Words" , "See Word List" , "Quit" , sep="\n")
         choice = input("What would you like to do? (match exact or acryonimize) ")
