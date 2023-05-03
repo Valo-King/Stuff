@@ -44,6 +44,7 @@ while True:
     initialize()
     for i in range(len(secretWord) + 5 , 0 , -1):
         guess = getGuess()
+# this might cause problems
         if checkGuess(guess) == True:
             continue
         elif guess in secretWord:
@@ -67,7 +68,7 @@ while True:
         if choice == "Play Again" or choice == "PA":
             continue
         elif choice == "Add Words" or choice == "AW":
-            wta == input("What word would you like to add? ")
+            wta = input("What word would you like to add? ")
             secretWords.append(wta)
             print("The word list is now: " + " ".join(secretWords))
         elif choice == "See Word List" or choice == "SWL":
