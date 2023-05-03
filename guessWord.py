@@ -65,13 +65,13 @@ while True:
     while True:
         print("Play Again" , "Add Words" , "See Word List" , "Quit" , sep="\n")
         choice = input("What would you like to do? (match exact or acryonimize) ")
-        if choice == "Play Again" or choice == "PA":
-            continue
-        elif choice == "Add Words" or choice == "AW":
+        if choice == "Play Again" or choice == "PA" or choice == "pa":
+           continue
+        elif choice == "Add Words" or choice == "AW" or choice == "aw":
             wta == input("What word would you like to add? ")
             secretWords.append(wta)
             print("The word list is now: " + " ".join(secretWords))
-        elif choice == "See Word List" or choice == "SWL":
+        elif choice == "See Word List" or choice == "SWL" or choice =="swl":
             print(" ".join(secretWords))
-        elif choice == "Quit" or choice == "Q":
+        elif choice == "Quit" or choice == "Q" or choice == "q":
             sys.exit()
