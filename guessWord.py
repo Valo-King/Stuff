@@ -1,6 +1,6 @@
 import random , sys
-secretWords = ["blue" , "green" , "purple" , "huntress" , "myers" , "stan" , "sam" , "adventure" , "ascii" ,
- "carmelita" , "gaming" , "time" , "grays" , "lmao" , "ayy" , "cockass"]
+secretWords = ["ascii" , "defenestrate" , "extraterrestrial" , "odin" , "gilgamesh" , "excalibur" , "risc" , "puffy"
+"monstrous" , "monstrance" , "scapula" , "liturgical" , "cats" , "base" , "all your base"]
 #this function handles game initialization
 def initialize():
     global guesses
