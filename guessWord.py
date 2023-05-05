@@ -1,6 +1,5 @@
 import random , sys
-secretWords = ["ascii" , "defenestrate" , "extraterrestrial" , "odin" , "gilgamesh" , "excalibur" , "risc" , "puffy"
-"monstrous" , "monstrance" , "scapula" , "liturgical" , "cats" , "base" , "all your base"]
+secretWords = ["ascii" , "defenestrate" , "extraterrestrial" , "odin" , "gilgamesh" , "excalibur" , "risc" , "puffy" , "monstrous" , "monstrance" , "scapula" , "liturgical" , "cats" , "base" , "all your base"]
 #this function handles game initialization
 def initialize():
     global guesses
@@ -61,17 +60,22 @@ while True:
         print("Someone set up us the bomb. All your base.")
         print("in ur spaceship, bombin ur dudes")
         print("The secret word was: " + secretWord)
-#This is a menu that lets the player decide if they would like to terminate the program or continue playing.
-    while True:
-        print("Play Again" , "Add Words" , "See Word List" , "Quit" , sep="\n")
-        choice = input("What would you like to do? (match exact or acryonimize) ")
-        if choice == "Play Again" or choice == "PA" or choice == "pa":
-           continue
-        elif choice == "Add Words" or choice == "AW" or choice == "aw":
-            wta == input("What word would you like to add? ")
-            secretWords.append(wta)
+#This is a menu that lets the player decide if they would like to terminate the program or continue playing
+    print("Play Again" , "Add Words" , "See Word List" , "Quit" , sep="\n")
+    choice = input("What would you like to do? (match exact or acryonimize) ")
+    if choice.lower() == "play again" or choice.lower() == "pa":
+       continue
+    elif choice.lower() == "add words" or choice.lower() == "aw":
+        wta = input("What word would you like to add? ")
+        secretWords.append(wta)
+        choice = input("Would you like to see the word list? ")
+        if choice.lower() == "y" or choice.lower() == "yes":
             print("The word list is now: " + " ".join(secretWords))
-        elif choice == "See Word List" or choice == "SWL" or choice =="swl":
-            print(" ".join(secretWords))
-        elif choice == "Quit" or choice == "Q" or choice == "q":
-            sys.exit()
+    elif choice.lower() == "see word list" or choice.lower() == "swl":
+        print(" ".join(secretWords))
+        continue
+    elif choice == "Quit" or choice == "Q" or choice == "q":
+        sys.exit()
+    choice = input("Would you like to play again? ")
+    if choice.lower() == "no" or choice.lower() == "n":
+        break
