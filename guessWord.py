@@ -1,4 +1,4 @@
-import random , sys
+import random
 secretWords = ["ascii" , "defenestrate" , "extraterrestrial" , "odin" , "gilgamesh" , "excalibur" , "risc" , "puffy" , "monstrous" , "monstrance" , "scapula" , "liturgical" , "cats" , "base" , "all your base"]
 #this function handles game initialization
 def initialize():
@@ -41,7 +41,7 @@ def checkGuess(guess):
 print("We've got bomb on the ship! Figure out the voice deactivation key, we only have so long!")
 while True:
     initialize()
-    for i in range(len(secretWord) + 5 , 0 , -1):
+    for i in range(len(secretWord) + 5 , -1 , -1):
         guess = getGuess()
         if checkGuess(guess) == True:
             continue
@@ -52,6 +52,13 @@ while True:
             print("That letter is not in the secret word.")
         print("You're getting signal: " + "".join(dashes))
         print("Your number of guesses remaining is: " + str(i))
+        print("Do you think you know the deactivation key?")
+        choice = input("")
+        if choice.lower() == "yes" or choice.lower() == "y":
+            superGuess = input("What you say??? ")
+            if superGuess in secretWord:
+                print(secretWord + " was the secret word! Congration, you're winner! :)")
+                break
         if "".join(dashes) in secretWord:
             print(secretWord + " was the secret word! Congration, you done it! :)")
             break
@@ -75,7 +82,7 @@ while True:
         print(" ".join(secretWords))
         continue
     elif choice == "Quit" or choice == "Q" or choice == "q":
-        sys.exit()
+        break
     choice = input("Would you like to play again? ")
     if choice.lower() == "no" or choice.lower() == "n":
         break
