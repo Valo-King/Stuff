@@ -10,12 +10,14 @@ def initialize():
         global dashes
         dashes = ["-"] * len(secretWord)
         global handicap
-        handicap = input("How many handicap guesses would you like this round? ")
-        if type(handicap) != int:
-            print("Enter a whole number, please.")
-            continue
-        else:
+        handicap = int(input("How many handicap guesses would you like this round? "))
+        try: 
+            handicap -= 1
+            handicap += 1
             break
+        except ValueError:
+            print("Please enter a number.")
+            continue
 #this function updates our secret word check, dashes, to carry the new letter
 def updateDashes(guess):
     for i in range(len(secretWord)):
