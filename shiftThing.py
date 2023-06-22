@@ -9,7 +9,12 @@ def messageIn():
 messageHair = [letter for letter in messageIn()]
 #taking the number to shift by
 shift = int(input("How many would you like to shift by? "))
-
+#this is stupid and there's iprobably a better way to do this.
+while True:
+    if abs(shift) >= 26: 
+        shift = abs(shift) - 26
+    if abs(shift) < 26:
+        break
 #this for-loop evaluates messageHair to see if the letter at i occurs in 
 #letterList, then gets the index of that occurance,
 #replaces the letter at i with the letter at that index+the shift number.
