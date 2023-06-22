@@ -60,7 +60,7 @@ while True:
                 print(secretWord + " was the secret word! Congration, you're winner! :)")
                 break
         if "".join(dashes) in secretWord:
-            print(secretWord + " was the secret word! Congration, you done it! :)")
+            print(secretWord + " was the secret word! Smitty Alskephenbern Werbenmangensen smiles upon you!")
             break
 #when the for loop terminates without the player guessing the right word this should print the lose message.
     if "".join(dashes) != secretWord:
