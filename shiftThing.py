@@ -7,9 +7,19 @@ def messageIn():
     return message.lower()
 #list comprehension fuckery that does the for loop stuff in a single line, cause that's cooler
 messageHair = [letter for letter in messageIn()]
-#taking the number to shift by
-shift = int(input("How many would you like to shift by? "))
 
+#taking the number to shift by and making sure it won't cause problems
+while True:
+    try:
+        shift = int(input("How many would you like to shift by? ")) 
+        if shift >= 26:
+            print("\nless than 26, please.")
+            continue
+        else:
+            break
+    except ValueError:
+        print("\nYou must enter a number.")
+        continue
 #this for-loop evaluates messageHair to see if the letter at i occurs in 
 #letterList, then gets the index of that occurance,
 #replaces the letter at i with the letter at that index+the shift number.

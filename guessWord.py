@@ -2,12 +2,20 @@ import random
 secretWords = ["ascii" , "defenestrate" , "extraterrestrial" , "odin" , "gilgamesh" , "excalibur" , "risc" , "puffy" , "monstrous" , "monstrance" , "scapula" , "liturgical" , "cats" , "base" , "all your base"]
 #this function handles game initialization
 def initialize():
-    global guesses
-    guesses = []
-    global secretWord
-    secretWord = random.choice(secretWords)
-    global dashes
-    dashes = ["-"] * len(secretWord)
+    while True:
+        global guesses
+        guesses = []
+        global secretWord
+        secretWord = random.choice(secretWords)
+        global dashes
+        dashes = ["-"] * len(secretWord)
+        global handicap
+        handicap = input("How many handicap guesses would you like this round? ")
+        if type(handicap) != int:
+            print("Enter a whole number, please.")
+            continue
+        else:
+            break
 #this function updates our secret word check, dashes, to carry the new letter
 def updateDashes(guess):
     for i in range(len(secretWord)):
@@ -41,8 +49,10 @@ def checkGuess(guess):
 print("We've got bomb on the ship! Figure out the voice deactivation key, we only have so long!")
 while True:
     initialize()
-    for i in range(len(secretWord) + 5 , -1 , -1):
+    print("Your number of guesses this time is: " + str(len(secretWord) + int(handicap)))
+    for i in range(len(secretWord) + int(handicap) , -1 , -1):
         guess = getGuess()
+#this continue statement goes up to the for loop, and takes away a guess. I think I can merge checkGuess and getGuess in some way, shape or form, but I'm not sure if it'll work the same way.
         if checkGuess(guess) == True:
             continue
         elif guess in secretWord:
@@ -50,6 +60,9 @@ while True:
             updateDashes(guess)
         else:
             print("That letter is not in the secret word.")
+        if "".join(dashes) in secretWord:
+            print(secretWord + " was the secret word! Congration, you done it! :)")
+            break
         print("You're getting signal: " + "".join(dashes))
         print("Your number of guesses remaining is: " + str(i))
         print("Do you think you know the deactivation key?")
@@ -57,8 +70,13 @@ while True:
         if choice.lower() == "yes" or choice.lower() == "y":
             superGuess = input("What you say??? ")
             if superGuess in secretWord:
-                print(secretWord + " was the secret word! Congration, you're winner! :)")
+                dashes.clear()
+                for i in range(len(secretWord)):
+                    dashes.append(secretWord[i])
                 break
+            else:
+                i = i - 1
+                print("That was not it! You lose two guesses now!")
         if "".join(dashes) in secretWord:
             print(secretWord + " was the secret word! Smitty Alskephenbern Werbenmangensen smiles upon you!")
             break
@@ -80,9 +98,5 @@ while True:
             print("The word list is now: " + " ".join(secretWords))
     elif choice.lower() == "see word list" or choice.lower() == "swl":
         print(" ".join(secretWords))
-        continue
     elif choice == "Quit" or choice == "Q" or choice == "q":
-        break
-    choice = input("Would you like to play again? ")
-    if choice.lower() == "no" or choice.lower() == "n":
         break
