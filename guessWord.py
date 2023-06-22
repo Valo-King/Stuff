@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 import random
 secretWords = ["ascii" , "defenestrate" , "extraterrestrial" , "odin" , "gilgamesh" , "excalibur" , "risc" , "puffy" , "monstrous" , "monstrance" , "scapula" , "liturgical" , "cats" , "base" , "all your base"]
 #this function handles game initialization
@@ -53,8 +52,7 @@ while True:
     print("Your number of guesses this time is: " + str(len(secretWord) + int(handicap)))
     for i in range(len(secretWord) + int(handicap) , -1 , -1):
         guess = getGuess()
-<<<<<<< Updated upstream
-        #this continue statement goes up to the for loop, and takes away a guess. I think I can merge checkGuess and getGuess in some way, shape or form, but I'm not sure if it'll work the same way.
+#this continue statement goes up to the for loop, and takes away a guess. I think I can merge checkGuess and getGuess in some way, shape or form, but I'm not sure if it'll work the same way.
         if checkGuess(guess) == True:
             continue
         elif guess in secretWord:
@@ -84,7 +82,6 @@ while True:
         print("Someone set up us the bomb. All your base.")
         print("in ur spaceship, bombin ur dudes")
         print("The secret word was: " + secretWord)
-<<<<<<< Updated upstream
 #This is a menu that lets the player decide if they would like to terminate the program or continue playing
     print("Play Again" , "Add Words" , "See Word List" , "Quit" , sep="\n")
     choice = input("What would you like to do? (match exact or acryonimize) ")
@@ -100,7 +97,3 @@ while True:
         print(" ".join(secretWords))
     elif choice == "Quit" or choice == "Q" or choice == "q":
         break
-    choice = input("Would you like to play again? ")
-    if choice.lower() == "no" or choice.lower() == "n":
-        break
-=======
