@@ -1,4 +1,4 @@
-#a list of all letters in the english languagei
+#a list of all letters in the english language
 #i absolutely cannot stand the way this is done but
 #i don't know enough about python to do it better.
 letterList = ["a" , "b" , "c" , "d" , "e" , "f" , "g" , "h" , "i" , "j" , "k" , "l" , "m" , "n" , "o" , "p" , "q" , "r" , "s" , "t" , "u" , "v" , "w" , "x" , "y" , "z" , "a" , "b" , "c" , "d" , "e" , "f" , "h" ,"i" , "j" , "k" , "l" , "m" , "n" , "o" , "p" , "q" , "r" , "s" , "t" , "u" , "v" , "w", "x" , "y" , "z" , "a" , "b" , "c" , "d" , "e" , "f" , "g" "h" , "i"]
