@@ -8,7 +8,7 @@ def initialize():
         global secretWord
         secretWord = random.choice(secretWords)
         global dashes
-        dashes = ["-"] * len(secretWord)
+        dashes = ["-" for x in range(len(secretWord))]
         global handicap
         handicap = int(input("How many handicap guesses would you like this round? "))
         try: 
@@ -75,13 +75,11 @@ while True:
                 dashes.clear()
                 for i in range(len(secretWord)):
                     dashes.append(secretWord[i])
+                print(secretWord + " was the secret word! Smitty Alskephenbern Werbenmangensen smiles upon you!")
                 break
             else:
                 i = i - 1
                 print("That was not it! You lose two guesses now!")
-        if "".join(dashes) in secretWord:
-            print(secretWord + " was the secret word! Smitty Alskephenbern Werbenmangensen smiles upon you!")
-            break
 #when the for loop terminates without the player guessing the right word this should print the lose message.
     if "".join(dashes) != secretWord:
         print("Someone set up us the bomb. All your base.")
@@ -91,7 +89,7 @@ while True:
     print("Play Again" , "Add Words" , "See Word List" , "Quit" , sep="\n")
     choice = input("What would you like to do? (match exact or acryonimize) ")
     if choice.lower() == "play again" or choice.lower() == "pa":
-       continue
+        pass
     elif choice.lower() == "add words" or choice.lower() == "aw":
         wta = input("What word would you like to add? ")
         secretWords.append(wta)
