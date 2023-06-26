@@ -1,5 +1,5 @@
 import random
-secretWords = ["ascii" , "defenestrate" , "extraterrestrial" , "odin" , "gilgamesh" , "excalibur" , "risc" , "puffy" , "monstrous" , "monstrance" , "scapula" , "liturgical" , "cats" , "base" , "all your base"]
+secretWords = ["ascii" ,"gruesome" , "defenestrate" , "extraterrestrial" , "odin" , "gilgamesh" , "excalibur" , "risc" , "puffy" , "monstrous" , "monstrance" , "scapula" , "liturgical" , "cats" , "base" , "all your base"]
 #this function handles game initialization
 def initialize():
     while True:
@@ -75,7 +75,7 @@ while True:
                 dashes.clear()
                 for i in range(len(secretWord)):
                     dashes.append(secretWord[i])
-                print(secretWord + " was the secret word! Smitty Alskephenbern Werbenmangensen smiles upon you!")
+                print(secretWord + " was the secret word! Smitty Alskephenbern Werbenjagermangensen smiles upon you!")
                 break
             else:
                 i = i - 1
