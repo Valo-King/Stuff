@@ -1,7 +1,7 @@
 #a list of all letters in the english language
 #i absolutely cannot stand the way this is done but
 #i don't know enough about python to do it better.
-letterList = ["a" , "b" , "c" , "d" , "e" , "f" , "g" , "h" , "i" , "j" , "k" , "l" , "m" , "n" , "o" , "p" , "q" , "r" , "s" , "t" , "u" , "v" , "w" , "x" , "y" , "z" , "a" , "b" , "c" , "d" , "e" , "f" , "h" ,"i" , "j" , "k" , "l" , "m" , "n" , "o" , "p" , "q" , "r" , "s" , "t" , "u" , "v" , "w", "x" , "y" , "z" , "a" , "b" , "c" , "d" , "e" , "f" , "g" "h" , "i"]
+letterList = ["a" , "b" , "c" , "d" , "e" , "f" , "g" , "h" , "i" , "j" , "k" , "l" , "m" , "n" , "o" , "p" , "q" , "r" , "s" , "t" , "u" , "v" , "w" , "x" , "y" , "z"]
 
 #this function takes a message that must be encrypted, lowerizes it, and returns it to be assigned to a variable.
 def messageIn():
@@ -14,8 +14,8 @@ messageHair = [letter for letter in messageIn()]
 while True:
     try:
         shift = int(input("How many would you like to shift by? ")) 
-        if shift >= 26:
-            print("\nless than 26, please.")
+        if shift >= len(letterList):
+            print("\nless than " + str(len(letterList)) + ", please.")
             continue
         else:
             break
@@ -24,11 +24,12 @@ while True:
         continue
 #this for-loop evaluates messageHair to see if the letter at i occurs in 
 #letterList, then gets the index of that occurance,
-#replaces the letter at i with the letter at that index+the shift number.
-for i in range(len(messageHair)):
-    if messageHair[i] in letterList:
-        index = letterList.index(messageHair[i])
-        messageHair[i] = letterList[index+shift]
-
-
+#replaces the letter at i with the letter at that index+the shift number
+#try:
+    for i in range(len(messageHair)):
+        if messageHair[i] in letterList:
+            index = letterList.index(messageHair[i]) 
+            messageHair[i] = letterList[shift % len(letterList)]
+#except IndexError:
+#    pass
 print("".join(messageHair))
