@@ -22,14 +22,23 @@ while True:
     except ValueError:
         print("\nYou must enter a number.")
         continue
+
 #this for-loop evaluates messageHair to see if the letter at i occurs in 
 #letterList, then gets the index of that occurance,
 #replaces the letter at i with the letter at that index+the shift number
-#try:
+try:
     for i in range(len(messageHair)):
         if messageHair[i] in letterList:
+            global index
             index = letterList.index(messageHair[i]) 
-            messageHair[i] = letterList[shift % len(letterList)]
-#except IndexError:
-#    pass
+            messageHair[i] = letterList[shift + index]
+except IndexError:
+    shifty = index + shift
+    shifty =- len(letterList)
+    for i in range(len(messageHair)):
+        if i == index:
+            messageHair[i] = letterList[index - shifty]
+
+    
+    
 print("".join(messageHair))
