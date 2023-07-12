@@ -70,6 +70,7 @@ while True:
         print("Do you think you know the deactivation key?")
         choice = input("")
         if choice.lower() == "yes" or choice.lower() == "y":
+            print("Main Screen Turn On")
             superGuess = input("What you say??? ")
             if superGuess in secretWord:
                 dashes.clear()

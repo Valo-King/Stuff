@@ -34,11 +34,9 @@ try:
             messageHair[i] = letterList[shift + index]
 except IndexError:
     shifty = index + shift
-    shifty =- len(letterList)
+    shifty = shifty - len(letterList)
     for i in range(len(messageHair)):
         if i == index:
             messageHair[i] = letterList[index - shifty]
-
-    
-    
-print("".join(messageHair))
+finally:
+    print("".join(messageHair))
