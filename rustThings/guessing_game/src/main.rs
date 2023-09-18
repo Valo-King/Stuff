@@ -11,7 +11,7 @@ fn main() {
         let mut guess = String::new();
         io::stdin().read_line(&mut guess)
             .expect("failed to read line");
-        let guess: i32 = match guess.trim().parse(){
+        let guess: = match guess.trim().parse::<i32>(){
             Ok(num) => num,
             Err(_) =>{
                 println!("numbers only.");
