@@ -10,12 +10,15 @@ fn main() {
     let mut message = String::new();
     io::stdin().read_line(&mut message)
             .expect("Failed to read line");
+    let mut shiftAmt = i8::new();
+    io::stdin().read_line(&mut shiftAmt)
+            .expect("Failed to read line");
     let chars_msg: Vec<char> = message.trim().chars().collect();
     let mut shifted: Vec<char> = Vec::new();
     for (index , item) in alphabet.iter().enumerate(){
         for(index2 , item2) in chars_msg.iter().enumerate(){
             if item2 == item{
-                shifted.push(alphabet[index+3])
+                shifted.push(alphabet[index+shiftAmt])
             }
         }
     
