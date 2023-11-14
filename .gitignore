@@ -1,3 +1,3 @@
-/rustThings/*/*/target
-/rustThing/*/*/Cargo.lock
+**/rustThings/**/target
+**/rustThing/**/Cargo.lock
 
