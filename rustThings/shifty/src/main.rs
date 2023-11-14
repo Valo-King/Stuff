@@ -18,7 +18,7 @@ fn main() {
     let chars_msg: Vec<char> = message.trim().chars().collect();
     let mut shifted: Vec<char> = Vec::new();
     for (index , item) in alphabet.iter().enumerate(){
-        for(index2 , item2) in chars_msg.iter().enumerate(){
+        for(_index2 , item2) in chars_msg.iter().enumerate(){
             if item2 == item{
                 shifted.push(alphabet[index+shiftAmt])
             }
