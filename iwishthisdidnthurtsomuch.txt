@@ -1,0 +1,145 @@
+2023-11-06 14:46:06, Info                  CSI    00006c18 Hashes for file member [l:11]'UefiCsp.dll' do not match.
+ Expected: {l:32 ml:4096 b:a2dfb63eaf836ee8c53b77576172614c1dc17f943253f6e90bbb90e1ae3b61f8}.
+ Actual: {l:32 b:347a8901c04728d2cdd9b6d546d6b6d8b37e1f8f4c6ce520f3a0f22839a909da}.
+2023-11-06 14:46:06, Info                  CSI    00006c19 [SR] Cannot repair member file [l:11]'UefiCsp.dll' of Microsoft-Windows-DevMgmt-UefiCsp, version 10.0.17763.1, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c1a Hashes for file member [l:11]'micross.ttf' do not match.
+ Expected: {l:32 ml:4096 b:3f557479a768a1d9924af0f29d0d842e8c41988738ce891f6be3abb0f008b0d5}.
+ Actual: {l:32 b:10c7d88f0ccef8f30b2a4846a9b85afa24f509aa0c29f56931329055b5aae891}.
+2023-11-06 14:46:06, Info                  CSI    00006c1b [SR] Cannot repair member file [l:11]'micross.ttf' of Microsoft-Windows-Font-TrueType-MicrosoftSansSerif, version 10.0.17763.1, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c1c Hashes for file member [l:12]'iisstart.png' do not match.
+ Expected: {l:32 ml:4096 b:5cd971d318349c4644488d55edb1e7357dad8aa3743bef74b84c302580e37d82}.
+ Actual: {l:32 b:f2bcc07bd91d3ef7cf1f5b25e7c109112cd723d893a1f15777c8b21c2d0ae7fb}.
+2023-11-06 14:46:06, Info                  CSI    00006c1d [SR] Cannot repair member file [l:12]'iisstart.png' of Microsoft-Windows-IIS-StartServer, version 10.0.17763.1, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c1e Hashes for file member [l:15]'msprivs.dll.mui' do not match.
+ Expected: {l:32 ml:4096 b:4ef3406b93e6d3f85c442489d6a0d5bbc802db51239137d06e0a5c80165b4a53}.
+ Actual: {l:32 b:07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264}.
+2023-11-06 14:46:06, Info                  CSI    00006c1f [SR] Cannot repair member file [l:15]'msprivs.dll.mui' of Microsoft-Windows-LSA-MSPrivs.Resources, version 10.0.17763.1, arch amd64, culture [l:5]'fi-FI', nonSxS, pkt {l:8 b:31bf3856ad364e35} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c20 Hashes for file member [l:15]'msprivs.dll.mui' do not match.
+ Expected: {l:32 ml:4096 b:08ade6ef63b596aa50582e88adad81279a8dd357087cd21dbe418e7e8ee7a8d4}.
+ Actual: {l:32 b:fd9243e1ba57263ed469c3bdbd7ade6ec5254e7ed924a9f5737fa44749933cc0}.
+2023-11-06 14:46:06, Info                  CSI    00006c21 [SR] Cannot repair member file [l:15]'msprivs.dll.mui' of Microsoft-Windows-LSA-MSPrivs.Resources, version 10.0.17763.1, arch amd64, culture [l:5]'fr-FR', nonSxS, pkt {l:8 b:31bf3856ad364e35} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c22 Hashes for file member [l:17]'Microsoft.Vsa.tlb' do not match.
+ Expected: {l:32 ml:4096 b:325adee1b5ec6b010b0e9f22506726c5f010b61ebae3e41f7207aafb9e6ac04b}.
+ Actual: {l:32 b:3b7b2d6a621d51bcbcab08970d2873f967e179b5a017b61401883cb3af458349}.
+2023-11-06 14:46:06, Info                  CSI    00006c23 [SR] Cannot repair member file [l:17]'Microsoft.Vsa.tlb' of NetFx-Microsoft_VSA_tlb, version 10.0.17763.1, arch amd64, versionScope neutral, pkt {l:8 b:b03f5f7f11d50a3a} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c24 Hashes for file member [l:23]'Sentinel.v3.5Client.dll' do not match.
+ Expected: {l:32 ml:4096 b:7b2b90e78ab0d428a284ee38a267cf89615edf2f87d4a16a313d67c16d36a668}.
+ Actual: {l:32 b:07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264}.
+2023-11-06 14:46:06, Info                  CSI    00006c25 [SR] Cannot repair member file [l:23]'Sentinel.v3.5Client.dll' of NetFx35WPF-Sentinel.v3.5Client, version 10.0.17763.1, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c26 Hashes for file member [l:29]'GlobalMonospace.CompositeFont' do not match.
+ Expected: {l:20 b:e94f46912ec53baa4d98af13d0acfb55565ec00e}.
+ Actual: {l:33 ml:4096 b:d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34}.
+2023-11-06 14:46:06, Info                  CSI    00006c27 [SR] Cannot repair member file [l:29]'GlobalMonospace.CompositeFont' of NetFx4-GlobalMonospaceCF, version 4.0.15744.1107, arch x86, versionScope neutral, pkt {l:8 b:b03f5f7f11d50a3a} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c28@2023/11/6:19:46:06.666 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c29 Hashes for file member [l:29]'GlobalMonospace.CompositeFont' do not match.
+ Expected: {l:20 b:e94f46912ec53baa4d98af13d0acfb55565ec00e}.
+ Actual: {l:33 ml:4096 b:d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34}.
+2023-11-06 14:46:06, Info                  CSI    00006c2a [SR] Cannot repair member file [l:29]'GlobalMonospace.CompositeFont' of NetFx4-GlobalMonospaceCF, version 4.0.15744.1107, arch x86, versionScope neutral, pkt {l:8 b:b03f5f7f11d50a3a} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c2b [SR] This component was referenced by [l:79]'Package_8_for_KB5031010~31bf3856ad364e35~amd64~~10.0.4676.1.5031010-236_neutral'
+2023-11-06 14:46:06, Info                  CSI    00006c2c Hashes for file member [l:29]'GlobalMonospace.CompositeFont' do not match.
+ Expected: {l:20 b:e94f46912ec53baa4d98af13d0acfb55565ec00e}.
+ Actual: {l:33 ml:4096 b:d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34d34}.
+2023-11-06 14:46:06, Info                  CSI    00006c2d [SR] Could not reproject corrupted file \??\C:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF\Fonts\\GlobalMonospace.CompositeFont; source file in store is also corrupted
+2023-11-06 14:46:06, Info                  CSI    00006c2e@2023/11/6:19:46:06.709 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c2f@2023/11/6:19:46:06.709 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c30 Hashes for file member [l:11]'UefiCsp.dll' do not match.
+ Expected: {l:32 ml:4096 b:a2dfb63eaf836ee8c53b77576172614c1dc17f943253f6e90bbb90e1ae3b61f8}.
+ Actual: {l:32 b:347a8901c04728d2cdd9b6d546d6b6d8b37e1f8f4c6ce520f3a0f22839a909da}.
+2023-11-06 14:46:06, Info                  CSI    00006c31 [SR] Cannot repair member file [l:11]'UefiCsp.dll' of Microsoft-Windows-DevMgmt-UefiCsp, version 10.0.17763.1, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c32 [SR] This component was referenced by [l:145]'Microsoft-Windows-Server-Features-Package02~31bf3856ad364e35~amd64~~10.0.17763.1.42E07F0F4E90DED063122281E1E15B335F5624F40DF24CB7AC208C0A70E5CC7D'
+2023-11-06 14:46:06, Info                  CSI    00006c33 Hashes for file member [l:11]'UefiCsp.dll' do not match.
+ Expected: {l:32 ml:4096 b:a2dfb63eaf836ee8c53b77576172614c1dc17f943253f6e90bbb90e1ae3b61f8}.
+ Actual: {l:32 b:347a8901c04728d2cdd9b6d546d6b6d8b37e1f8f4c6ce520f3a0f22839a909da}.
+2023-11-06 14:46:06, Info                  CSI    00006c34 Hashes for file member [l:11]'UefiCsp.dll' do not match.
+ Expected: {l:32 ml:4096 b:a2dfb63eaf836ee8c53b77576172614c1dc17f943253f6e90bbb90e1ae3b61f8}.
+ Actual: {l:32 b:347a8901c04728d2cdd9b6d546d6b6d8b37e1f8f4c6ce520f3a0f22839a909da}.
+2023-11-06 14:46:06, Info                  CSI    00006c35 [SR] Could not reproject corrupted file \??\C:\Windows\System32\\UefiCsp.dll; source file in store is also corrupted
+2023-11-06 14:46:06, Info                  CSI    00006c36@2023/11/6:19:46:06.741 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c37@2023/11/6:19:46:06.741 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c38 Hashes for file member [l:15]'msprivs.dll.mui' do not match.
+ Expected: {l:32 ml:4096 b:08ade6ef63b596aa50582e88adad81279a8dd357087cd21dbe418e7e8ee7a8d4}.
+ Actual: {l:32 b:fd9243e1ba57263ed469c3bdbd7ade6ec5254e7ed924a9f5737fa44749933cc0}.
+2023-11-06 14:46:06, Info                  CSI    00006c39 [SR] Cannot repair member file [l:15]'msprivs.dll.mui' of Microsoft-Windows-LSA-MSPrivs.Resources, version 10.0.17763.1, arch amd64, culture [l:5]'fr-FR', nonSxS, pkt {l:8 b:31bf3856ad364e35} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c3a [SR] This component was referenced by [l:116]'Microsoft-Windows-Server-Features-Package01210~31bf3856ad364e35~amd64~~10.0.17763.1.342c619ed27886eb26c84d6b20733c8d'
+2023-11-06 14:46:06, Info                  CSI    00006c3b [SR] This component was referenced by [l:129]'Microsoft-Windows-ServerCore-SKU-Foundation-onecore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.21ba017d9258008516ab8ba5be5bdc1e'
+2023-11-06 14:46:06, Info                  CSI    00006c3c Hashes for file member [l:15]'msprivs.dll.mui' do not match.
+ Expected: {l:32 ml:4096 b:08ade6ef63b596aa50582e88adad81279a8dd357087cd21dbe418e7e8ee7a8d4}.
+ Actual: {l:32 b:fd9243e1ba57263ed469c3bdbd7ade6ec5254e7ed924a9f5737fa44749933cc0}.
+2023-11-06 14:46:06, Info                  CSI    00006c3d Hashes for file member [l:15]'msprivs.dll.mui' do not match.
+ Expected: {l:32 ml:4096 b:08ade6ef63b596aa50582e88adad81279a8dd357087cd21dbe418e7e8ee7a8d4}.
+ Actual: {l:32 b:fd9243e1ba57263ed469c3bdbd7ade6ec5254e7ed924a9f5737fa44749933cc0}.
+2023-11-06 14:46:06, Info                  CSI    00006c3e [SR] Could not reproject corrupted file \??\C:\Windows\System32\fr-FR\\msprivs.dll.mui; source file in store is also corrupted
+2023-11-06 14:46:06, Info                  CSI    00006c3f@2023/11/6:19:46:06.771 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c40@2023/11/6:19:46:06.771 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c41 Hashes for file member [l:17]'Microsoft.Vsa.tlb' do not match.
+ Expected: {l:32 ml:4096 b:325adee1b5ec6b010b0e9f22506726c5f010b61ebae3e41f7207aafb9e6ac04b}.
+ Actual: {l:32 b:3b7b2d6a621d51bcbcab08970d2873f967e179b5a017b61401883cb3af458349}.
+2023-11-06 14:46:06, Info                  CSI    00006c42 [SR] Cannot repair member file [l:17]'Microsoft.Vsa.tlb' of NetFx-Microsoft_VSA_tlb, version 10.0.17763.1, arch amd64, versionScope neutral, pkt {l:8 b:b03f5f7f11d50a3a} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c43 [SR] This component was referenced by [l:79]'Microsoft-Windows-NetFx2-OC-Package~31bf3856ad364e35~amd64~~10.0.17763.1.NetFx2'
+2023-11-06 14:46:06, Info                  CSI    00006c44 Hashes for file member [l:17]'Microsoft.Vsa.tlb' do not match.
+ Expected: {l:32 ml:4096 b:325adee1b5ec6b010b0e9f22506726c5f010b61ebae3e41f7207aafb9e6ac04b}.
+ Actual: {l:32 b:3b7b2d6a621d51bcbcab08970d2873f967e179b5a017b61401883cb3af458349}.
+2023-11-06 14:46:06, Info                  CSI    00006c45 Hashes for file member [l:17]'Microsoft.Vsa.tlb' do not match.
+ Expected: {l:32 ml:4096 b:325adee1b5ec6b010b0e9f22506726c5f010b61ebae3e41f7207aafb9e6ac04b}.
+ Actual: {l:32 b:3b7b2d6a621d51bcbcab08970d2873f967e179b5a017b61401883cb3af458349}.
+2023-11-06 14:46:06, Info                  CSI    00006c46 [SR] Could not reproject corrupted file \??\C:\Windows\Microsoft.NET\Framework64\v2.0.50727\\Microsoft.Vsa.tlb; source file in store is also corrupted
+2023-11-06 14:46:06, Info                  CSI    00006c47@2023/11/6:19:46:06.801 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c48@2023/11/6:19:46:06.801 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c49 Hashes for file member [l:11]'micross.ttf' do not match.
+ Expected: {l:32 ml:4096 b:3f557479a768a1d9924af0f29d0d842e8c41988738ce891f6be3abb0f008b0d5}.
+ Actual: {l:32 b:10c7d88f0ccef8f30b2a4846a9b85afa24f509aa0c29f56931329055b5aae891}.
+2023-11-06 14:46:06, Info                  CSI    00006c4a [SR] Cannot repair member file [l:11]'micross.ttf' of Microsoft-Windows-Font-TrueType-MicrosoftSansSerif, version 10.0.17763.1, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c4b [SR] This component was referenced by [l:145]'Microsoft-Windows-Server-Features-Package01~31bf3856ad364e35~amd64~~10.0.17763.1.7DA898F2B95E1C071E22CF31E0071BF5491DE6642DC743AAB89067A828FACBCE'
+2023-11-06 14:46:06, Info                  CSI    00006c4c [SR] This component was referenced by [l:132]'Microsoft-OneCore-Fonts-ServerMinGuiShellFonts-windows-Package~31bf3856ad364e35~amd64~~10.0.17763.1.f625c6c5a4146df42162daf47d4be15d'
+2023-11-06 14:46:06, Info                  CSI    00006c4d Hashes for file member [l:11]'micross.ttf' do not match.
+ Expected: {l:32 ml:4096 b:3f557479a768a1d9924af0f29d0d842e8c41988738ce891f6be3abb0f008b0d5}.
+ Actual: {l:32 b:10c7d88f0ccef8f30b2a4846a9b85afa24f509aa0c29f56931329055b5aae891}.
+2023-11-06 14:46:06, Info                  CSI    00006c4e Hashes for file member [l:11]'micross.ttf' do not match.
+ Expected: {l:32 ml:4096 b:3f557479a768a1d9924af0f29d0d842e8c41988738ce891f6be3abb0f008b0d5}.
+ Actual: {l:32 b:10c7d88f0ccef8f30b2a4846a9b85afa24f509aa0c29f56931329055b5aae891}.
+2023-11-06 14:46:06, Info                  CSI    00006c4f [SR] Could not reproject corrupted file \??\C:\Windows\Fonts\\micross.ttf; source file in store is also corrupted
+2023-11-06 14:46:06, Info                  CSI    00006c50@2023/11/6:19:46:06.866 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c51@2023/11/6:19:46:06.866 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c52 Hashes for file member [l:12]'iisstart.png' do not match.
+ Expected: {l:32 ml:4096 b:5cd971d318349c4644488d55edb1e7357dad8aa3743bef74b84c302580e37d82}.
+ Actual: {l:32 b:f2bcc07bd91d3ef7cf1f5b25e7c109112cd723d893a1f15777c8b21c2d0ae7fb}.
+2023-11-06 14:46:06, Info                  CSI    00006c53 [SR] Cannot repair member file [l:12]'iisstart.png' of Microsoft-Windows-IIS-StartServer, version 10.0.17763.1, arch amd64, nonSxS, pkt {l:8 b:31bf3856ad364e35} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c54 [SR] This component was referenced by [l:108]'Microsoft-Windows-IIS-WebServer-Core-NanoServer-Package~31bf3856ad364e35~amd64~~10.0.17763.1.IIS-StartServer'
+2023-11-06 14:46:06, Info                  CSI    00006c55@2023/11/6:19:46:06.900 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c56@2023/11/6:19:46:06.903 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c57 Hashes for file member [l:15]'msprivs.dll.mui' do not match.
+ Expected: {l:32 ml:4096 b:4ef3406b93e6d3f85c442489d6a0d5bbc802db51239137d06e0a5c80165b4a53}.
+ Actual: {l:32 b:07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264}.
+2023-11-06 14:46:06, Info                  CSI    00006c58 [SR] Cannot repair member file [l:15]'msprivs.dll.mui' of Microsoft-Windows-LSA-MSPrivs.Resources, version 10.0.17763.1, arch amd64, culture [l:5]'fi-FI', nonSxS, pkt {l:8 b:31bf3856ad364e35} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c59 [SR] This component was referenced by [l:116]'Microsoft-Windows-Server-Features-Package01210~31bf3856ad364e35~amd64~~10.0.17763.1.342c619ed27886eb26c84d6b20733c8d'
+2023-11-06 14:46:06, Info                  CSI    00006c5a [SR] This component was referenced by [l:129]'Microsoft-Windows-ServerCore-SKU-Foundation-onecore-Package~31bf3856ad364e35~amd64~~10.0.17763.1.21ba017d9258008516ab8ba5be5bdc1e'
+2023-11-06 14:46:06, Info                  CSI    00006c5b Hashes for file member [l:15]'msprivs.dll.mui' do not match.
+ Expected: {l:32 ml:4096 b:4ef3406b93e6d3f85c442489d6a0d5bbc802db51239137d06e0a5c80165b4a53}.
+ Actual: {l:32 b:07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264}.
+2023-11-06 14:46:06, Info                  CSI    00006c5c Hashes for file member [l:15]'msprivs.dll.mui' do not match.
+ Expected: {l:32 ml:4096 b:4ef3406b93e6d3f85c442489d6a0d5bbc802db51239137d06e0a5c80165b4a53}.
+ Actual: {l:32 b:07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264}.
+2023-11-06 14:46:06, Info                  CSI    00006c5d [SR] Could not reproject corrupted file \??\C:\Windows\System32\fi-FI\\msprivs.dll.mui; source file in store is also corrupted
+2023-11-06 14:46:06, Info                  CSI    00006c5e@2023/11/6:19:46:06.950 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c5f@2023/11/6:19:46:06.950 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c60 Hashes for file member [l:23]'Sentinel.v3.5Client.dll' do not match.
+ Expected: {l:32 ml:4096 b:7b2b90e78ab0d428a284ee38a267cf89615edf2f87d4a16a313d67c16d36a668}.
+ Actual: {l:32 b:07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264}.
+2023-11-06 14:46:06, Info                  CSI    00006c61 [SR] Cannot repair member file [l:23]'Sentinel.v3.5Client.dll' of NetFx35WPF-Sentinel.v3.5Client, version 10.0.17763.1, arch x86, nonSxS, pkt {l:8 b:31bf3856ad364e35} in the store, hash mismatch
+2023-11-06 14:46:06, Info                  CSI    00006c62 [SR] This component was referenced by [l:89]'Microsoft-Windows-NetFx3-OnDemand-Package~31bf3856ad364e35~amd64~~10.0.17763.1.NetFx3-FOD'
+2023-11-06 14:46:06, Info                  CSI    00006c63 Hashes for file member [l:23]'Sentinel.v3.5Client.dll' do not match.
+ Expected: {l:32 ml:4096 b:7b2b90e78ab0d428a284ee38a267cf89615edf2f87d4a16a313d67c16d36a668}.
+ Actual: {l:32 b:07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264}.
+2023-11-06 14:46:06, Info                  CSI    00006c64 Hashes for file member [l:23]'Sentinel.v3.5Client.dll' do not match.
+ Expected: {l:32 ml:4096 b:7b2b90e78ab0d428a284ee38a267cf89615edf2f87d4a16a313d67c16d36a668}.
+ Actual: {l:32 b:07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264}.
+2023-11-06 14:46:06, Info                  CSI    00006c65 [SR] Could not reproject corrupted file \??\C:\Windows\Microsoft.NET\Framework\v3.5\\Sentinel.v3.5Client.dll; source file in store is also corrupted
+2023-11-06 14:46:06, Info                  CSI    00006c66@2023/11/6:19:46:06.977 Primitive installers committed for repair
+2023-11-06 14:46:06, Info                  CSI    00006c67 [SR] Repair complete
+2023-11-06 14:46:06, Info                  CSI    00006c68 [SR] Committing transaction
+2023-11-06 14:46:06, Info                  CSI    00006c69 Creating NT transaction (seq 1)
+2023-11-06 14:46:06, Info                  CSI    00006c6a Created NT transaction (seq 1) result 0x00000000, handle @0x1218
+2023-11-06 14:46:07, Info                  CSI    00006c6b@2023/11/6:19:46:07.434 Beginning NT transaction commit...
+2023-11-06 14:46:07, Info                  CSI    00006c6c@2023/11/6:19:46:07.497 CSI perf trace:
+CSIPERF:TXCOMMIT;67727
+2023-11-06 14:46:07, Info                  CSI    00006c6d [SR] Verify and Repair Transaction completed. All files and registry keys listed in this transaction  have been successfully repaired

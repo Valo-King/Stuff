@@ -2,3 +2,4 @@ we have an array of 26 entries with the english latin alphabet
 a vector of a message
 iterate over the vec of the message and compare indices
 
+believe some method is alphabetizing the thing
