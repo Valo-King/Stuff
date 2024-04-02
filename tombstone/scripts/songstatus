@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if playerctl -p spotify,cmus status >/dev/null 2>&1; then
+    playerctl metadata -f '{{title}}' -p spotify,cmus
+else
+    echo ""
+fi
