@@ -1,0 +1,5 @@
+need to create
+	Python NeoCities API publisher
+		neocitizen
+	RUST RSS writer, likely to take info from files and put it into XML to be published as an RSS feed
+		
