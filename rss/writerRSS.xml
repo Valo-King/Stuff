@@ -2,16 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Soda's Writing Blog</title>
-		<atom:link href="http://thesodafoutain.neocities.org/test.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://thesodafoutain.neocities.org/writerRSS.xml" rel="self" type="application/rss+xml" />
 		<link>https://thesodafoutain.neocities.org/htmls/writings</link>
 		<description>Scrivener of the Gods</description>
 		<language>en-us</language>
+		<category>Fiction/Writing/Art/Blog</category>
+		<item>
+			<guid isPermaLink="true">https://thesodafoutain.neocities.org/htmls/book/peom.html</guid>
+			<title>Original Poetry</title>
+			<pubDate>Tue, 23 Apr 2024 07:51:00 EST</pubDate>
+			<description>A collection of poetry that will be continually updated with what I consider good.</description>
+			<category>Writing/Art</category>
+		</item>
 		<item>
 			<guid isPermaLink="true">http://thesodafoutain.neocities.org/htmls/book/jo-ur.html</guid>
 			<title>The Chronicle of Jo-Ur</title>
 			<link>https://thesodafoutain.neocities.org/htmls/book/jo-ur</link>
 			<pubDate>Mon, 22 Apr 2024 09:45:00 EST</pubDate>
 			<description>A story about a giant and the battles he went through.</description>
+			<category>Writing/Art/Fiction</category>
 		</item>
 	</channel>
 </rss>
