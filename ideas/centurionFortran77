@@ -1,0 +1,5 @@
+fortran 77 compiler for Centurion CPU6
+	requires intimate understanding of Centurion bytecode
+		could go thru knuth's book writing algo with them
+
+
