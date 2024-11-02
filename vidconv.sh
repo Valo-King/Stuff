@@ -7,7 +7,7 @@
 # and double conditionals to
 # check for duplicates (Because
 # ffmpeg treats duplicates
-# as a catastrophic failure.
+# as a catastrophic failure).
 read -p "Format? " FMT
 INFILE=$1
 
