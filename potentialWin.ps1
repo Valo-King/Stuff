@@ -1,2 +1,0 @@
-$samnames = get-adgroupmember "RFMS Users" | ? {$_.objectclass -eq "user"} | format-table -hidetableheaders samaccountname 
-foreach ($user in $samnames) {Get-ADUser -Identity $user | ? {$_.enabled -eq $true} | select name, samaccountname, userprincipalname, enabled}
